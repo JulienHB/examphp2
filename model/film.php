@@ -58,8 +58,6 @@ public function modifFilm($id,$categorie,$title,$resume,$year,$image){
 public function ajoutFilm($categorie,$title,$resume,$year,$image){
     return $this->BDDconnection("INSERT INTO `film` (`categorie`,`title`,`resume`,`year`,`image`)
     VALUES ('{$categorie}','{$title}','{$resume}','{$year}','{$image}')");
-    echo("INSERT INTO `film` (`categorie`,`title`,`resume`,`year`,`image`)
-    VALUES ('{$categorie}','{$title}','{$resume}','{$year}','{$image}')");
 }
 
 public function setErase($id){

@@ -29,8 +29,9 @@ switch ($adress[1]):
     case 'modif' : 
         require_once('views/film-modif.php');
         break;
-
-
+    case 'api' :
+        require_once('views/api.php');
+        break;
     default :
         include 'views/404.php';
         break;
