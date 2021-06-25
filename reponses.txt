@@ -1,0 +1,10 @@
+1: le bloc try ...catch permet de tenter une ou plusieurs instructions dans la partie try et si l'action n'est pas possible on peut capter les erreurs dans la partie catch.
+Cette méthode peut être utiliser lors de la tentative de connnexion à une Base de Données (TRY) et permet de traiter les erreurs de connexions ou de requetage via le bloc catch => l'interet est que cela n'est pas visible pour l'utilisateur final.
+
+2: PDO est une class permettant d'instancier un objet visant à créer une connexion vers une base de données.
+
+3:Une requête préparée est une instruction fonctionnelle attendant des parametres dynamiques pour être exécutée au sein d'une base de donnée.
+
+4: Fournir une API permet d'avoir un accès distant au contenu d'un application/site. Cela permet de partager du contenu et de créer des systèmes dynamiques en cascade.
+
+5: L'avantage d'utiliser une API est d'avoir un contenu dynamique et potentiellement à jour.
